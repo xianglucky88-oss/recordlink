@@ -1,1 +1,1 @@
-"""recordlink baseline (single-responsibility pipeline)."""
+"""recordlink package (single-responsibility pipeline)."""
