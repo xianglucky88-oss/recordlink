@@ -1,4 +1,4 @@
-PY=python3
+PY=$(shell [ -x .venv/bin/python ] && echo .venv/bin/python || echo python3)
 run:
 	PYTHONPATH=src $(PY) -m recordlink.cli
 test:
